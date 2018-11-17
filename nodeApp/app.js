@@ -9,9 +9,9 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 let nav = [
+    {link: '/', name:'Home'},
     {link: '/movies', name:'Movies'},
-    {link: '/artist', name:'artist'},
-    {link: '/about', name:'About'}
+    {link: '/artist', name:'artist'}
 ]
 
 let moviesRouter = require('./src/routes/moviesRoute')(nav);
@@ -23,10 +23,9 @@ app.use('/artist', artistRouter);
 
 
 app.get('/',(req,res) => { 
-    res.render('index',{
+    res.render('home',{
         title: 'Home Page',
-        nav:nav
-
+        navbar:nav
     })
 })
 

@@ -1,0 +1,41 @@
+S.No |  Maths | English | Computer
+1    | 80     |         |
+2    |        |  80     |
+3    |        |         |  90
+
+
+JSON=> JAVASCRIPT OBJECT NOTATION
+[
+    {
+        sno:1,
+        math:80
+    },
+    {
+        sno:2,
+        english:80
+    },
+    {
+        sno:3,
+        computer:90,
+        math:80
+    }
+]
+NoSql
+
+
+C drive
+
+create folder data/db
+
+programmfile/mongodb/4.0/server/bin
+mongod(to start server)
+
+programmfile/mongodb/4.0/server/bin
+mongo(to start client)
+
+
+
+database     =>        database
+table        =>        collections
+row          =>        document
+

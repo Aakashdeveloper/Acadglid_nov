@@ -74,10 +74,10 @@ let movies = [
 function router(nav){
     moviesRouter.route('/')
         .get((req,res) => {
-            res.render('index', {title:'Movies', navbar:nav,
+            res.render('movies', {title:'Movies', navbar:nav,
                     movies})
     })
-    moviesRouter.route('/details')
+    moviesRouter.route('/:id')
         .get((req,res) => {
             res.render('moviesDetail', {title:'Movies Detail', navbar:nav,
                 movies})

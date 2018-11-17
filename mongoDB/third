@@ -1,0 +1,1 @@
+db.third.update({color:'green'},{$set:{shade:'pale'}})

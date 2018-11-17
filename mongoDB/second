@@ -1,0 +1,54 @@
+db.city.insertMany[
+        {
+            "_id" : ObjectId("5bb2bfbcf1dd27ab120d777b"),
+            "name" : "session1",
+            "city" : "amsterdam",
+            "age" : 22
+        }
+        {
+            "_id" : ObjectId("5bb2bfe5f1dd27ab120d777d"),
+            "name" : "session2",
+            "city" : "delhi",
+            "age" : 19
+        }
+        {
+            "_id" : ObjectId("5bb2bfcdf1dd27ab120d777c"),
+            "name" : "session2",
+            "city" : "helsinki",
+            "age" : 29
+        }
+        {
+            "_id" : ObjectId("5bb2be7af1dd27ab120d7779"),
+            "name" : "session1",
+            "city" : "london"
+        }
+        {
+            "_id" : ObjectId("5bb2bfb1f1dd27ab120d777a"),
+            "name" : "session1",
+            "city" : "london",
+            "age" : 20
+        }
+        {
+            "_id" : ObjectId("5bb2be7af1dd27ab120d7779"),
+            "name" : "session1",
+            "city" : "london"
+        }
+        {
+            "_id" : ObjectId("5bb2bfb1f1dd27ab120d777a"),
+            "name" : "session1",
+            "city" : "london",
+            "age" : 20
+        }
+        {
+            "_id" : ObjectId("5bb2bfcdf1dd27ab120d777c"),
+            "name" : "session2",
+            "city" : "helsinki",
+            "age" : 29
+        }
+        {
+            "_id" : ObjectId("5bb2bfe5f1dd27ab120d777d"),
+            "name" : "session2",
+            "city" : "delhi",
+            "age" : 19
+        }
+]
